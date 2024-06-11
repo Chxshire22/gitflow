@@ -9,7 +9,7 @@ It simply checks
 - if you are in a git repo
 - if there are any changes
 - then it adds, and then commits the changes
-- if you have an upstream branch, if you do not it will ask if you would like to push to a new upstream branch of the same name as your local branch.
+- it checks if you have an upstream branch, if you do not it will ask if you would like to push to a new upstream branch of the same name as your local branch.
 - it then pushes to the upstream branch
 
 ## If you want to try it:
