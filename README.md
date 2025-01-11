@@ -19,6 +19,15 @@ It simply checks
 
 **optionally you can create a symlink (I think this might be better?)**
 
+### To create a symlink
+
 ```
-sudo chmod +x gitflow; cp gitflow /usr/bin/
+sudo chmod +x gitflow;
+ln -s ./gitflow /usr/local/bin/gitflow;
+```
+
+### To copy it to a PATH
+
+```
+sudo chmod +x gitflow; cp gitflow /usr/bin/;
 ```
